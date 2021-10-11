@@ -1,0 +1,10 @@
+{
+    "name": "UTAS Session Extender",
+    "description": "Extension for UTAS on Google Chrome",
+    "version": "1.0",
+    "manifest_version": 1,
+    "content_scripts": [{
+        "matches": ["https://utas.adm.u-tokyo.ac.jp/campusweb/campusportal.do?*"],
+        "js": ["main.js"]
+    }]
+}
